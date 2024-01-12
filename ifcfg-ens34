@@ -1,0 +1,24 @@
+## Configuration wifi portail captif
+
+# Nom de la carte réseau
+DEVICE=ens34
+# Le réseau
+NETWORK=192.168.1.0
+# L'adresse de broadcast
+BROADCAST=192.168.1.255
+# Démarrer l'interface au démarrage (yes/no)
+ONBOOT=YES
+# Le nom de la connexion
+NAME=wlan
+# Le type de connexion
+TYPE=Ethernet
+# Protocole de configuration réseau (dhcp/none)
+BOOTPROTO=none
+# L'adresse IP statique
+IPADDR0=192.168.1.254
+# Le masque de sous-réseau (24 = 255.255.255.0)
+PREFIX0=24
+# La passerelle par défaut
+GATEWAY0=192.168.1.1
+# Le serveur DNS primaire
+DNS1=192.168.1.1
